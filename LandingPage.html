@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My To-Do App</title>
+    <link rel="stylesheet" href="todo.css" />
+</head>
+
+<body>
+    <nav class="topnav">
+        <a href="LandingPage.html" class="active">Home</a>
+        <a href="signUp.html">Signup</a>
+        <a href="logIn.html">Login</a>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Stay Organized. Stay Productive.</h1>
+            <p>Track your tasks and boost your productivity effortlessly.</p>
+            <a href="#todo" id="cta">Get Started</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Easy to Use</h2>
+            <p>Quickly add, complete, or delete tasks.</p>
+        </div>
+        <div class="feature">
+            <h2>Responsive</h2>
+            <p>Works seamlessly on desktop and mobile.</p>
+        </div>
+        <div class="feature">
+            <h2>Free & Clean</h2>
+            <p>Simple interface, no clutter.</p>
+        </div>
+    </section>
+
+    <section id="todo" class="todo-section">
+        <div class="todo-container">
+            <h2>Tastemonials</h2>
+            <div class="input-wrapper">
+                <input type="text" id="taskInput" placeholder="Add a comment..." />
+                <button onclick="addTask()" id="btn">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My To‑Do App</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

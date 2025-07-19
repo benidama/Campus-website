@@ -1,0 +1,75 @@
+#form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#form-container input[type="text"],
+#form-container input[type="email"],
+#form-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+#form-container input:focus {
+  border-color: #66afe9;
+  outline: none;
+}
+
+#form-container button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #04aa6d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#form-container button[type="submit"]:hover {
+  background: #038f5a;
+}
+
+/* Responsive layout tweak */
+@media (max-width: 600px) {
+  #form-container {
+    padding: 15px;
+  }
+  #form-container label {
+    margin-top: 12px;
+  }
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding: 1rem;
+  background-color: gray;
+  color: wheat;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+  border-style: outset;
+}

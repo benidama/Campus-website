@@ -1,0 +1,54 @@
+.topnav {
+  background: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background: #04aa6d;
+  color: white;
+}
+
+.form-section {
+  padding: 2rem 1rem;
+  background: #fff;
+  max-width: 400px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-section input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+.form-section button {
+  padding: 0.75rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.form-section button:hover {
+  background: #0056b3;
+}
