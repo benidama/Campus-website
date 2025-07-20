@@ -52,3 +52,6 @@
 .form-section button:hover {
   background: #0056b3;
 }
+#login-error {
+  color: red;
+}

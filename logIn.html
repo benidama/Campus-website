@@ -17,11 +17,14 @@
     <section id="login" class="form-section">
         <h2>Login</h2>
         <form id="loginForm">
-            <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Password" required />
+            <input type="email" placeholder="Email" required id="email" />
+            <input type="password" placeholder="Password" required id="password" />
             <button type="submit">Login</button>
+            <p id="login-error"></p>
+            <p>Don't you have account? <a href="./signUp.html">Register</a></p>
         </form>
     </section>
+    <script src="./logIn.js"></script>
 </body>
 
 </html>
